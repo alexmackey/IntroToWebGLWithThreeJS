@@ -1,0 +1,5 @@
+{yellow}{bold}Found a bug with {appname} or just want to contribute?{/bold}{/yellow}
+
+  The official repository for {appname} is:
+    https://github.com/alexmackey/introtowebgl
+  Feel free to file a bug report or (preferably) a pull request.
