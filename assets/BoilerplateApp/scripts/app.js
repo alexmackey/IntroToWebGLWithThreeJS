@@ -11,7 +11,7 @@ var demo = (function(){
         ground,
         controls=null;
 
-        var initScene = function(){
+        function initScene(){
     
             renderer.setSize( window.innerWidth, window.innerHeight );
             document.getElementById("webgl-container").appendChild(renderer.domElement);
@@ -25,11 +25,11 @@ var demo = (function(){
                     1000
                 );
             
-            camera.position.set( 60, 50, 60 );
-            camera.lookAt( scene.position );
-            scene.add( camera );  
+            camera.position.set( 0, 0, 100 );
+            
+            scene.add(camera);  
 
-            var box = new THREE.Mesh(
+            box = new THREE.Mesh(
               new THREE.CubeGeometry(
                 20,
                 20,
@@ -38,15 +38,15 @@ var demo = (function(){
 
             scene.add(box);
 
-            requestAnimationFrame(render);   
-        
+            requestAnimationFrame(render);
+
         };
 
         function render() {
-            renderer.render(scene, camera); 
-            requestAnimationFrame(render);
+                renderer.render(scene, camera); 
+                requestAnimationFrame(render);
         };
-
+       
         window.onload = initScene;
 
 })();
