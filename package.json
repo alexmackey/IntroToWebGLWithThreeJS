@@ -1,6 +1,6 @@
 {
   "name": "introtowebgl",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Introduction to WebGL with three.js",
   "author": "Alex Mackey <alexjmackey@gmail.com> (https://github.com/alexmackey)",
   "contributors": [
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmackey/IntroToWebGLWithThreeJS"
+    "url": "https://github.com/alexmackey/IntroToWebGLWithThreeJS.git"
   },
   "license": "CC-BY-NC-3.0",
   "dependencies": {
