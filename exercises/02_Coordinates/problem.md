@@ -10,7 +10,7 @@ The centre point is sometimes called the origin and we can identify it by 3 valu
 When objects are added to a scene in three.js if you don’t specify a position the object is added at 0,0,0.
 
 
-Open up index.htm in folder /Assets/BoilerplateApp. 
+Open up index.htm in folder assets/BoilerplateApp/. 
 
 In the scripts folder is a file called app.js that sets up a simple scene with a cube in the centre. There are many different types of primitives in three.js such as spheres, triangles, planes (a flat shape used for ground etc) but we will stick with a cube for these exercises as we are square like that.
 

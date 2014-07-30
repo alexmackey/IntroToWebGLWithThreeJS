@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/alexmackey/IntroToWebGLWithThreeJS.git"
   },
-  "license": "MIT",
+  "license": "CC-BY-NC-3.0",
   "dependencies": {
     "workshopper": "^1.0.0-alpha05",
     "workshopper-exercise": "^0.2.2",
