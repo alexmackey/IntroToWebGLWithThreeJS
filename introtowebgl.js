@@ -14,7 +14,6 @@ function fpath (f) {
   return path.join(__dirname, f)
 }
 
-
 workshopper({
     name        : name
   , title       : title
@@ -27,3 +26,5 @@ workshopper({
       , handler : credits
     } ]
 })
+
+//updated to fix windows line endings
