@@ -41,7 +41,7 @@ var raycaster = new THREE.Raycaster(camera.position, vector.sub(camera.position)
 This will give us a collection of intersections that we can iterate through to look at any objects we are interested in:
 
 ```js
-var intersects = raycaster.intersectObjects(objects);
+var intersects = raycaster.intersectObjects(scene.children);
 ```
 
 And to illustrate the click has occurred we will change the colour of the object:
