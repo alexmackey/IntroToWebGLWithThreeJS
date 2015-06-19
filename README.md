@@ -3,10 +3,11 @@
 Workshopper tutorial created for Melbourne CampJS 2014 covering three.js basics including lighting, basic shapes, mouse projections, collision detection and physics.
 
 ## usage
-
+```
 npm install -g introtowebgl
-introtowebgl
 
+introtowebgl
+```
 ### Contributors
 
 Alex Mackey (@alexjmackey)
